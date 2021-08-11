@@ -1,0 +1,117 @@
+html{
+    min-height: 100%;
+    background: url("netflix-background.jpg")
+    no-repeat center center fixed;
+    box-shadow:inset 0 0 0 2000px rgba(19, 13, 16, 0.7);
+    background-size: cover;
+}
+body{
+    font-family: sans-serif;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head{
+    color:white;
+    font-size: 0.8rem;
+    /* 1rem = 16px */
+    word-spacing: 0.7rem;
+    float:left;
+}
+
+nav{
+    float: right;
+}
+
+ul{
+    border-left: 3px solid coral;
+}
+
+li{
+    display: inline;
+    padding-right:1.7rem;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.quote{
+    background-color: #E8290B;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+}
+
+.container{
+    width: 70%;
+    margin:auto;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+showcase h1{
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+showcase h3{
+    font-size:2rem;
+    color:white;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+showcase p{
+    color:white;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+a button{
+    background: transparent;
+    color:white;
+    border: 2px solid white;
+    padding: 0.7rem 1rem;
+    border-radius:1.3rem;
+    margin-top: 1.2rem;
+}
+
+aside{
+    width: 90%;
+    margin: auto;
+    color:white;
+    font-size:1.2rem;
+    text-align: right;
+}
+
+.price{
+    color:gold;
+    font-size: 3rem;
+    padding-left: 0.7rem;
+}
+
+.btn{
+    background: red;
+    border:none;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 10px;
+}
+
+footer{
+    color:white;
+    /* background:rgba(255,255,255,0.8); */
+    text-align: center;
+    padding:1.3rem;
+}
+
+
+
+
